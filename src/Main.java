@@ -9,7 +9,10 @@ public class Main {
         int bonus; // сумма бонуса по условию
         if (pay > 1000) {
             bonus = pay / bonusCost;
-        } else bonus = 0;
+        } 
+        else {
+            bonus = 0;
+        }
 
         int finalBalance = initBalance + pay + bonus; // итоговая сумма
 
